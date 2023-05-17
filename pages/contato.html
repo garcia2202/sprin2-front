@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav id="navegation">
+            <div id="img_pai_nav">
+                <img id="logo_home" src="../images/logo.png" alt="Logo do Site">
+            </div>
+            <div id="nav_pai_nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./Calculo.html">Cálculo</a></li>
+                    <li><a href="./Quem_somos.html">Quem Somos</a></li>
+                </ul>
+            </div>
+            <div id="button_pai_nav">
+                <button id="button1" type="submit" onclick="tema1()">Tema Claro</button>
+                <button id="button2" type="submit" onclick="tema2()">Tema Escuro</button>
+            </div>
+    </header>
+    <main id="main_cont">
+        <div id="container_form">
+            <h1 id="titulo_form">Entrar em Contato</h1>
+            <hr>
+            <div class="container">
+                <form id="formulario" autocomplete="off">
+                <div id="nome">
+                    <p>Nome:</p><input type="text" name="nome" id="nome_form" required="required" placeholder="Digite seu nome"/>
+                </div>
+                <div id="email">
+                    <p>Email:</p><input type="text" name="email" id="email_form" placeholder="Digite seu e-mail"/>
+                </div>
+                <div id="tel">
+                    <p>Telefone:</p><input type="tel" name="fone" id="fone_form" placeholder="(xx)xx-xx-xx-xx"/>
+                </div>
+                <div id="opniao">
+                    <p>Opinião:</p><textarea maxlength="20" name="opiniao" id="op_form" cols="25" rows="2" placeholder="Deixe aqui sua opinião"></textarea>
+                </div>
+                <div id="button">
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
+                </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>2023 - Todos os Direitos Reservados.</footer>
+    <script src="../script.js"></script>
+</body>
+</html>

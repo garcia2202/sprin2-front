@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c6c6c6;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #212A3E;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+#navegation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #212A3E;
+    height: 170px;
+}
+
+#img_pai_nav, #nav_pai_nav, #button_pai_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_pai_nav ul li a, #button_pai_nav button {
+    text-decoration: none;
+    background-color: white;
+    padding: 9px;
+    margin: 0 4px 0 4px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    border: 2px solid #c6c6c6;
+    color: black;
+}
+
+#nav_pai_nav ul li a:hover, #button_pai_nav button:hover {
+    background-color: #c6c6c6;
+    border: 2px solid black;
+}
+
+#navegation ul li {
+    display: inline;
+}
+
+#logo_home {
+    width: 150px;
+    height: 100px;
+}
+
+#titulo_form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 7px 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#qs_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+
+#welcome{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+#calculo_title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.container_cal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_form {
+    width: 30%;
+    background-color: #475a7e;
+    border: 1px solid black;
+    border-radius: 7%;
+}
+
+#container_form hr {
+    color: black;
+}
+
+#main_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container p {
+    padding-top: 5px;
+} 
+
+#container_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
